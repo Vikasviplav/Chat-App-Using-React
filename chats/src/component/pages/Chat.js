@@ -8,7 +8,7 @@ import "../styles/Chat.css";
 
 let socket;
 const ENDPOINT = "http://localhost:4500/";
-// const ENDPOINT = "https://demo-ichat-app.herokuapp.com/";
+// const ENDPOINT = "https://ichat-app-server.herokuapp.com/";
 
 const Chat = () => {
     const [id, setId] = useState("");
